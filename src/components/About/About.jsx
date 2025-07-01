@@ -1,8 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
-// import profileImage from "../../assets/profile2.png";
-// import ayushprofile from "../../assets/company_logo./";
+import ayushprofile from "../../assets/my_profile/ayush_profile.png";
 
 const About = () => {
   return (
@@ -73,11 +72,11 @@ const About = () => {
             transitionSpeed={1000}
             gyroscope={true}
           >
-            {/* <img
-              src={profileImage}
-              alt="Tarun Kaushik"
+            <img
+              src={ayushprofile}
+              alt="Ayush saxena image"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
-            /> */}
+            />
           </Tilt>
         </div>
       </div>

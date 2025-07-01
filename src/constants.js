@@ -1,17 +1,13 @@
 // Skills Section Logo's
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
-import sassLogo from "./assets/tech_logo/sass.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import angularLogo from "./assets/tech_logo/angular.png";
 import reduxLogo from "./assets/tech_logo/redux.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import gsapLogo from "./assets/tech_logo/gsap.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
-import springbootLogo from "./assets/tech_logo/springboot.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
@@ -19,8 +15,6 @@ import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
 import cLogo from "./assets/tech_logo/c.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
-import javaLogo from "./assets/tech_logo/java.png";
-import pythonLogo from "./assets/tech_logo/python.png";
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
@@ -30,22 +24,15 @@ import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-import postgreLogo from "./assets/tech_logo/postgre.png";
-import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience Section Logo's
-import webverseLogo from "./assets/company_logo/webverse_logo.png";
-import agcLogo from "./assets/company_logo/agc_logo.png";
-import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
-
-// Education Section Logo's
-import glaLogo from "./assets/education_logo/gla_logo.png";
-import bsaLogo from "./assets/education_logo/bsa_logo.png";
-import vpsLogo from "./assets/education_logo/vps_logo.png";
+import ems_logo from "./assets/company_logo/ems logo.png";
+import bluestock from "./assets/company_logo/bluestock_fintech.png";
+import code_cademy from "./assets/company_logo/code_cademy.png";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
+import aiimage from "./assets/work_logo/ai_img.png";
+import storeit from "./assets/work_logo/storeit.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
 import npmLogo from "./assets/work_logo/npm.png";
@@ -106,7 +93,7 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: webverseLogo,
+    img: ems_logo,
     role: "Software Development Engineer intern",
     company: "Elevate My skill",
     date: "April 2025 - Present",
@@ -125,7 +112,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: agcLogo,
+    img: bluestock,
     role: "SDE intern",
     company: "Bluestock Fintech",
     date: "Nov 2024 - Dec 2024",
@@ -134,8 +121,8 @@ export const experiences = [
   },
   {
     id: 2,
-    img: newtonschoolLogo,
-    role: "Codecommunity Member",
+    img: code_cademy,
+    role: "Codecademy Member",
     company: "Codecademy",
     date: "September 2024 - presnt",
     desc: "Collaborated with international students on various projects, including a Spotify app ,Enabled seamless fetching of auth tokens and integrated song display functionality into the UI.Implementing responsive design and ensuring cross-browser compatibility. I Contributed significantly to the project,leading key aspects of the frontend development and enhancing overall user experience",
@@ -143,84 +130,43 @@ export const experiences = [
   },
 ];
 
-// export const education = [
-//   {
-//     id: 0,
-//     img: glaLogo,
-//     school: "GLA University, Mathura",
-//     date: "Sept 2022 - July 2024",
-//     grade: "7.81 CGPA",
-//     desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-//     degree: "Master of Computer Applications - MCA",
-//   },
-//   {
-//     id: 1,
-//     img: bsaLogo,
-//     school: "BSA College, Mathura",
-//     date: "Sept 2018 - Aug 2021",
-//     grade: "73.2%",
-//     desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-//     degree: "Bachelor of Science - BSC (Computer Science)",
-//   },
-//   {
-//     id: 2,
-//     img: vpsLogo,
-//     school: "Vatsalya Public School Govardhan, Mathura",
-//     date: "Apr 2017 - March 2018",
-//     grade: "78%",
-//     desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-//     degree: "CBSE(XII) - PCM with Computer Science",
-//   },
-//   {
-//     id: 3,
-//     img: vpsLogo,
-//     school: "Vatsalya Public School Govardhan, Mathura",
-//     date: "Apr 2015 - March 2016",
-//     grade: "87.5%",
-//     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-//     degree: "CBSE(X), Science with Computer Application",
-//   },
-// ];
-
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "AI-Mock-Interview",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "AI-powered platform designed to help users prepare for interviews, featuring personalized question sets, real-time feedback, and performance tracking to enhance interview readiness.",
+    image: aiimage,
+    tags: [
+      "JavaScript",
+      "React JS",
+      "TailwindCSS",
+      "Shadcn",
+      "clerk",
+      "Firebase",
+    ],
+    github: "https://github.com/Ayushsaxena0227/ai-mock-interview",
+    webapp: "https://ai-mockinterview-a76a7.web.app/",
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "Store-it",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
-    tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+      " A full-stack web app for tracking and organizing storage units efficiently, built using Next.js and Appwrite. It features real-time search, automated categorization, and role-based access control for seamless inventory management.",
+    image: storeit,
+    tags: ["Next JS", "Appwrite", "Typescript", "TailwindCSS", "Shadcn"],
+    github: "https://github.com/Ayushsaxena0227/Storeit-storage-management-app",
+    webapp: "https://storeit-storage-management-app.vercel.app/sign-in",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Livedocs",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      " A real-time collaborative document editor that allows multiple users across the world to work together seamlessly. It features synchronized editing and real-time updates, ensuring efficient teamwork and smooth document management.",
     image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    tags: ["Next JS", "TailwindCSS", "Typescript"],
+    github: "https://github.com/Ayushsaxena0227/livedocs",
+    webapp: "",
   },
   {
     id: 3,

@@ -33,12 +33,8 @@ import code_cademy from "./assets/company_logo/code_cademy.png";
 // Project Section Logo's
 import aiimage from "./assets/work_logo/ai_img.png";
 import storeit from "./assets/work_logo/storeit.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
 import devtool_img from "./assets/work_logo/devtool_chrome_img.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import livedocs from "./assets/work_logo/livedocs.png";
 
 export const SkillsInfo = [
   {
@@ -162,7 +158,7 @@ export const projects = [
     title: "Livedocs",
     description:
       " A real-time collaborative document editor that allows multiple users across the world to work together seamlessly. It features synchronized editing and real-time updates, ensuring efficient teamwork and smooth document management.",
-    image: movierecLogo,
+    image: livedocs,
     tags: ["Next JS", "TailwindCSS", "Typescript"],
     github: "https://github.com/Ayushsaxena0227/livedocs",
     webapp: "",

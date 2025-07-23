@@ -35,6 +35,7 @@ import aiimage from "./assets/work_logo/ai_img.png";
 import storeit from "./assets/work_logo/storeit.png";
 import devtool_img from "./assets/work_logo/devtool_chrome_img.png";
 import livedocs from "./assets/work_logo/livedocs.png";
+import resume_img from "./assets/work_logo/resume_builder.png";
 
 export const SkillsInfo = [
   {
@@ -143,6 +144,7 @@ export const projects = [
     github: "https://github.com/Ayushsaxena0227/ai-mock-interview",
     webapp: "https://ai-mockinterview-a76a7.web.app/",
   },
+
   {
     id: 1,
     title: "Store-it",
@@ -155,6 +157,24 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Resume Builder",
+    description:
+      "Ai-powered web app for creating, customizing, and sharing professional resumes with features like secure public links, real-time view analytics, feedback submission, and interactive previews to help job seekers build standout resumes efficiently.",
+    image: resume_img,
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "TailwindCSS",
+      "Axios",
+      "Recharts",
+    ],
+    github: "https://github.com/Ayushsaxena0227/resume-builder",
+    webapp: "https://resume-builder-zeta-dusky.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Livedocs",
     description:
       " A real-time collaborative document editor that allows multiple users across the world to work together seamlessly. It features synchronized editing and real-time updates, ensuring efficient teamwork and smooth document management.",
@@ -164,7 +184,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "DevTool - Bookmark Manager (Chrome Extension)",
     description:
       "A free and lightweight Chrome extension that allows developers to bookmark and access helpful tools or resources from anywhere. Built with HTML, CSS, and JavaScript, it offers a clean UI and local storage support. Install it manually without any store submission.",

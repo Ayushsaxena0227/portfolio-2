@@ -40,12 +40,15 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            results-driven Software Developer with 2 months internship
-            experience in both startup and fintech environments, contributing to
-            full-stack web development and robust backend systems. Currently
-            Building Front-End for my Company End-to-End while implementing
-            responsive UI components using React and TailwindCSS, integrating
-            content management with Ghost.io, and enhancing UI/UX.
+            Results-driven Software Developer with 3 months of internship
+            experience in Edtech startup specializing in full-stack web
+            development and backend systems. Currently building end-to-end
+            front-end solutions, including dashboards, courses, assignments,
+            mentor, and payment pages. Developed premium mentor features like
+            unlocking access, selection, payments, and booking.Built admin panel
+            with user, payment, career consultant, and mentor management, adding
+            pagination to optimize load times and performance. Intregrating APIs
+            for Admin panel.
           </p>
           {/* Resume Button */}
           <a

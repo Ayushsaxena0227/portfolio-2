@@ -7,6 +7,7 @@ import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./components/BlurBlob";
+import RecentProjects from "./components/RecentProjects";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <div className="relative pt-20">
         <Navbar />
         <About />
+        <RecentProjects />
         <Skills />
         <Experience />
         <Work />

@@ -37,6 +37,9 @@ import devtool_img from "./assets/work_logo/devtool_chrome_img.png";
 import livedocs from "./assets/work_logo/livedocs.png";
 import resume_img from "./assets/work_logo/resume_builder.png";
 
+// recent Projects
+import dailyprep from "./assets/Recent_projects_logo/dailyprep.png";
+
 export const SkillsInfo = [
   {
     title: "Frontend",
@@ -93,7 +96,7 @@ export const experiences = [
     role: "Software Development Engineer intern",
     company: "Elevate My skill",
     date: "April 2025 - Present",
-    desc: "Developed and maintained scalable frontend components using React.js, TailwindCSS, and ShadCN UI.Integrated APIs for user authentication, contact forms, and masterclass registrations using Firebase and Node.js.Collaborated with the team to build responsive student dashboards, lesson navigation, and assignment tracking interfaces.Integrated Ghost.io CMS for dynamic blog rendering and SEO-friendly content management.Contributed to enhancing user experience by implementing mobile-first responsive design and interactive UI features.",
+    desc: "Developed and integrated RESTful APIs in Node.js + Express for user authentication (mobile OTP, Google OAuth), secure session/logout flows, user profile CRUD, cart management, and payment modules, improving scalability and response efficiency. Took complete backend ownership of the Kartly project, building core endpoints for login, profile management, address handling, cart operations, and data retrieval. Delivered features for Mentor, Admin Panel, and Masterclass Blaze platforms including premium/unlock flows, mentor booking, OTP verification, date‑based scheduling, form submissions with buffering, and multi‑role admin management with pagination. Built and maintained React.js + TailwindCSS frontend modules for dashboards, courses, assignments, premium content, and payment workflows, and integrated Ghost.io CMS for SEO‑friendly dynamic blog content. Optimized performance by unifying Axios API calls, refactoring multiple modules, and fixing UI/API issues while collaborating with senior developers to deliver production‑ready features",
     skills: [
       "HTML",
       "CSS",
@@ -123,6 +126,17 @@ export const experiences = [
     date: "September 2024 - presnt",
     desc: "Collaborated with international students on various projects, including a Spotify app ,Enabled seamless fetching of auth tokens and integrated song display functionality into the UI.Implementing responsive design and ensuring cross-browser compatibility. I Contributed significantly to the project,leading key aspects of the frontend development and enhancing overall user experience",
     skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+  },
+];
+export const recentProjects = [
+  {
+    id: 0,
+    title: "Daily Prep",
+    description: "Master Interviews in 10 Minutes a Day",
+    image: dailyprep,
+    tags: ["React", "Node.js", "Express", "Twilio", "Cloudinary", "fireabase"],
+    github: "https://github.com/Ayushsaxena0227/dailyprep",
+    webapp: "https://dailyprep-wfb3.vercel.app/",
   },
 ];
 
@@ -193,54 +207,13 @@ export const projects = [
     github: "https://github.com/yourname/devtool-bookmarker",
     webapp: "",
   },
-  // {
-  //   id: 4,
-  //   title: "Task Reminder Chrome Extension Tool",
-  //   description:
-  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //   image: taskremLogo,
-  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Webverse Digital",
-  //   description:
-  //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-  //   image: webverLogo,
-  //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-  //   github: "https://github.com/codingmastr/Webverse-Digital",
-  //   webapp: "https://webversedigital.com/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Coding Master",
-  //   description:
-  //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-  //   image: cmLogo,
-  //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-  //   github: "https://codingmasterweb.in/",
-  //   webapp: "https://codingmasterweb.in/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Image Search App",
-  //   description:
-  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-  //   image: imagesearchLogo,
-  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Search-App",
-  //   webapp: "https://imagsearch.netlify.app/",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Image Background Remover",
-  //   description:
-  //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //   image: removebgLogo,
-  //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Background-Remover",
-  //   webapp: "https://removeyourbg.netlify.app/",
-  // },
+  {
+    id: 5,
+    title: "Daily Prep",
+    description: "Master Interviews in 10 Minutes a Day",
+    image: dailyprep,
+    tags: ["React", "Node.js", "Express", "Twilio", "Cloudinary", "fireabase"],
+    github: "https://github.com/Ayushsaxena0227/dailyprep",
+    webapp: "https://dailyprep-wfb3.vercel.app/",
+  },
 ];

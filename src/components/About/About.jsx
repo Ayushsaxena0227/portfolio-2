@@ -41,19 +41,26 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Results-driven Software Developer with 3 months of internship
-            experience in Edtech startup specializing in full-stack web
-            development and backend systems. Currently building end-to-end
-            front-end solutions, including dashboards, courses, assignments,
-            mentor, and payment pages. Developed premium mentor features like
-            unlocking access, selection, payments, and booking.Built admin panel
-            with user, payment, career consultant, and mentor management, adding
-            pagination to optimize load times and performance. Intregrating APIs
-            for Admin panel.
+            At <span className="font-semibold">Elevate My Skill</span> (Noida),
+            I’ve built and optimized backend systems for the
+            <span className="font-semibold"> Kartly</span> platform, developing
+            secure RESTful APIs for authentication, profile, cart, and order
+            management. I integrated{" "}
+            <span className="font-semibold">Razorpay</span> for seamless
+            payments, implemented session handling and pagination for
+            performance, and added real-time notifications using
+            <span className="font-semibold">
+              {" "}
+              Firebase Cloud Messaging (FCM)
+            </span>
+            . On the frontend, I developed responsive React.js + TailwindCSS
+            modules for user dashboards, mentor booking, and checkout flows
+            aligned with new Figma designs. This role strengthened my ability to
+            deliver clean, scalable, and production-ready full-stack solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1gur1ajVjznjwPpeKImL6His__UihTbNf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wBb6tOCUEgxY--Kv7qWLq0vi71p31AwK/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
